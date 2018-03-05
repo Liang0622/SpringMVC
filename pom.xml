@@ -6,9 +6,12 @@
   <packaging>pom</packaging>
   <version>1.0-SNAPSHOT</version>
   <modules>
-    <module>SpringMVCBase</module>
-      <module>MultiMethod</module>
-      <module>Annotation</module>
+    <module>01SpringMVCBase</module>
+      <module>02SpringMultiMethod</module>
+      <module>03SpringAnnotation</module>
+      <module>04SpringForwardAndRedirect</module>
+      <module>05SpringException</module>
+      <module>06SpringConverter</module>
   </modules>
   <name>SpringMVC Maven Webapp</name>
   <url>http://maven.apache.org</url>

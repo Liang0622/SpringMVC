@@ -6,13 +6,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="05SpringException" />
+        <module name="_05SpringException" />
         <module name="Annotation" />
+        <module name="Converter" />
+        <module name="ForwardAndRedirect" />
         <module name="MultiMethod" />
         <module name="SpringMVCBase" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="05SpringException" target="1.5" />
+      <module name="_05SpringException" target="1.5" />
       <module name="Annotation" target="1.5" />
+      <module name="Converter" target="1.5" />
+      <module name="ForwardAndRedirect" target="1.5" />
       <module name="MultiMethod" target="1.5" />
       <module name="SpringMVC" target="1.5" />
       <module name="SpringMVCBase" target="1.5" />
