@@ -1,8 +1,8 @@
 <component name="ArtifactManager">
-  <artifact type="war" name="MultiMethod:war">
+  <artifact type="war" name="02SpringMultiMethod:war">
     <output-path>$PROJECT_DIR$/02SpringMultiMethod/target</output-path>
     <root id="archive" name="MultiMethod.war">
-      <element id="artifact" artifact-name="MultiMethod:war exploded" />
+      <element id="artifact" artifact-name="02SpringMultiMethod:war exploded" />
     </root>
   </artifact>
 </component>

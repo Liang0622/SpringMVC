@@ -1,8 +1,8 @@
 <component name="ArtifactManager">
-  <artifact type="war" name="ForwardAndRedirect:war">
+  <artifact type="war" name="04SpringForwardAndRedirect:war">
     <output-path>$PROJECT_DIR$/04SpringForwardAndRedirect/target</output-path>
     <root id="archive" name="ForwardAndRedirect.war">
-      <element id="artifact" artifact-name="ForwardAndRedirect:war exploded" />
+      <element id="artifact" artifact-name="04SpringForwardAndRedirect:war exploded" />
     </root>
   </artifact>
 </component>

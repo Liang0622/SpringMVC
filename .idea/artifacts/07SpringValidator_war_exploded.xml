@@ -1,10 +1,10 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="_05SpringException:war exploded">
-    <output-path>$PROJECT_DIR$/_05SpringException/target/05SpringException</output-path>
+  <artifact type="exploded-war" name="07SpringValidator:war exploded">
+    <output-path>$PROJECT_DIR$/07SpringValidator/target/SpringValidator</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="05SpringException" />
+          <element id="module-output" name="07SpringValidator" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: aopalliance:aopalliance:1.0" />
@@ -35,9 +35,9 @@
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/05SpringException/target/05SpringException/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/07SpringValidator/target/SpringValidator/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="05SpringException/web/Web" />
+      <element id="javaee-facet-resources" facet="07SpringValidator/web/Web" />
     </root>
   </artifact>
 </component>

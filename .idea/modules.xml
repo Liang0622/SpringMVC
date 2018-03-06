@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/04SpringForwardAndRedirect/04SpringForwardAndRedirect.iml" filepath="$PROJECT_DIR$/04SpringForwardAndRedirect/04SpringForwardAndRedirect.iml" />
       <module fileurl="file://$PROJECT_DIR$/05SpringException/05SpringException.iml" filepath="$PROJECT_DIR$/05SpringException/05SpringException.iml" />
       <module fileurl="file://$PROJECT_DIR$/06SpringConverter/06SpringConverter.iml" filepath="$PROJECT_DIR$/06SpringConverter/06SpringConverter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07SpringValidator/07SpringValidator.iml" filepath="$PROJECT_DIR$/07SpringValidator/07SpringValidator.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringMVC.iml" filepath="$PROJECT_DIR$/SpringMVC.iml" />
     </modules>
   </component>
