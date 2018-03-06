@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/07SpringValidator/07SpringValidator.iml" filepath="$PROJECT_DIR$/07SpringValidator/07SpringValidator.iml" />
       <module fileurl="file://$PROJECT_DIR$/08SpringUpload/08SpringUpload.iml" filepath="$PROJECT_DIR$/08SpringUpload/08SpringUpload.iml" />
       <module fileurl="file://$PROJECT_DIR$/09SpringInterceptor/09SpringInterceptor.iml" filepath="$PROJECT_DIR$/09SpringInterceptor/09SpringInterceptor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10SpringDownload/10SpringDownload.iml" filepath="$PROJECT_DIR$/10SpringDownload/10SpringDownload.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringMVC.iml" filepath="$PROJECT_DIR$/SpringMVC.iml" />
     </modules>
   </component>

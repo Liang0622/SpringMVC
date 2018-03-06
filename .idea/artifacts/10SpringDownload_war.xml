@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="10SpringDownload:war">
+    <output-path>$PROJECT_DIR$/10SpringDownload/target</output-path>
+    <root id="archive" name="10SpringDownload.war">
+      <element id="artifact" artifact-name="10SpringDownload:war exploded" />
+    </root>
+  </artifact>
+</component>
