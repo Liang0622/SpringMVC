@@ -14,6 +14,7 @@
       <module>06SpringConverter</module>
       <module>07SpringValidator</module>
       <module>08SpringUpload</module>
+      <module>09SpringInterceptor</module>
   </modules>
   <name>SpringMVC Maven Webapp</name>
   <url>http://maven.apache.org</url>

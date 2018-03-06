@@ -10,5 +10,6 @@
     <file url="file://$PROJECT_DIR$/06SpringConverter" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/07SpringValidator" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/08SpringUpload" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/09SpringInterceptor" charset="UTF-8" />
   </component>
 </project>
