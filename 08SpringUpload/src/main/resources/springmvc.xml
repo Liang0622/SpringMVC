@@ -17,26 +17,20 @@
         http://www.springframework.org/schema/mvc
         http://www.springframework.org/schema/mvc/spring-mvc.xsd">
 
-    <!--现在使用注解，扫描指定的包下面的类-->
+    <!--使用注解扫描指定包下所有的组件-->
     <context:component-scan base-package="com.liang.controller"/>
+    <mvc:annotation-driven/>
 
-    <mvc:annotation-driven conversion-service="conversionService"/>
-
-    <!--注册我们自定义的类型转换器-->
-    <bean id="dateConverter" class="com.liang.converter.MyDateConverter"/>
-
-    <!--创建类型转换器工厂 加载我们自定义的类型转换器-->
-    <bean id="conversionService" class="org.springframework.context.support.ConversionServiceFactoryBean">
-        <property name="converters">
-            <set>
-                <ref bean="dateConverter"/>
-            </set>
-        </property>
+    <!--配置文件上传的解析器-->
+    <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+        <property name="defaultEncoding" value="utf-8"/><!--上传文件乱码-->
+        <property name="maxUploadSize" value="314110000"/><!--所有文件的总大小限制-->
+        <property name="maxUploadSizePerFile" value="3141100"/><!--单个文件大小的限制-->
     </bean>
 
-    <!--配置默认的视图解析器  把后台的逻辑视图解析为物理视图-->
+    <!--配置视图解析器-->
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix" value="/WEB-INF/jsp/"/>
         <property name="suffix" value=".jsp"/>
-     </bean>
+    </bean>
 </beans>

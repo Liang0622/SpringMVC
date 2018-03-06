@@ -10,7 +10,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 @Controller
 @RequestMapping("/user")
-public class UserController extends BaseController{
+public class UserController /*extends BaseController*/{
     @RequestMapping("/add")
     public String addUser(User user) throws UserException{
         System.out.println("进入了===》Add");

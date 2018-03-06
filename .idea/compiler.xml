@@ -13,7 +13,9 @@
         <module name="05SpringException" />
         <module name="06SpringConverter" />
         <module name="07SpringValidator" />
+        <module name="08SpringUpload" />
         <module name="_05SpringException" />
+        <module name="_08SpringUpload" />
         <module name="Annotation" />
         <module name="Converter" />
         <module name="ForwardAndRedirect" />
@@ -30,7 +32,9 @@
       <module name="05SpringException" target="1.5" />
       <module name="06SpringConverter" target="1.5" />
       <module name="07SpringValidator" target="1.5" />
+      <module name="08SpringUpload" target="1.5" />
       <module name="_05SpringException" target="1.5" />
+      <module name="_08SpringUpload" target="1.5" />
       <module name="Annotation" target="1.5" />
       <module name="Converter" target="1.5" />
       <module name="ForwardAndRedirect" target="1.5" />
